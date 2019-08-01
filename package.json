@@ -3,6 +3,13 @@
   "version": "0.0.3",
   "description": "将 imgcook React 开发规范导出的 React 组件标准化",
   "main": "index.js",
+  "keywords": [
+    "imgcook",
+    "react",
+    "React",
+    "component",
+    "Component"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/imgcook-plugin/loader-react-component-standard.git"
