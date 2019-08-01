@@ -14,7 +14,7 @@ const loader = async (fileValue, option) => {
     option.moduleData.dsl === 'react-taobao-standard'
   ) {
     const filePath = option.filePath;
-    const componentName = toCamel(filePath.slice(filePath.lastIndexOf('/') + 1));
+    const componentName = toCamel(filePath.slice(filePath.lastIndexOf('/') + 1)) || 'ComponentName';
 
     fileValue = fileValue
       .replace('DvcComponent', componentName)    // 修改组件名称
