@@ -18,12 +18,10 @@ class DvcComponent extends React.Component {
   render() {
     return (
       <div className="box">
-        <div className="bd">
-          <img
-            className="floorBg"
-            src={"./images/img_9990_0_3.png"}
-          />
-        </div>
+        <img
+          className="floorBg"
+          src={"./images/img_9990_0_3.png"}
+        />
       </div>
     );
   }
@@ -40,12 +38,10 @@ class CardList extends Component {
   render() {
     return (
       <div className="box">
-        <div className="bd">
-          <img
-            className="floorBg"
-            src={require('./images/img_9990_0_3.png')}
-          />
-        </div>
+        <img
+          className="floorBg"
+          src={require('./images/img_9990_0_3.png')}
+        />
       </div>
     );
   }
