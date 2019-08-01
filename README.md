@@ -7,12 +7,12 @@
 ## 安装
 <font color="#333">安装依赖 imgcook-cli</font>
 ```
-imgcook install plugin --name @imgcook/loader-react-component-standard
+imgcook install loader --name @imgcook/loader-react-component-standard
 ```
 
 ## 说明
-* 默认会导入 style.css ，建议开发者可根据需求，通过打包器进行单位转换
-* 组件名称会使用当前所在的目录名称，目录名称建议使用小写横线命名，如：card-list
+* 默认会导入 style.css ，建议开发者根据需求，通过打包器进行单位转换
+* 组件名称会使用当前所在的目录名称，目录名称建议使用小写横线命名规则，如：card-list
 
 ## 示例
 imgcook 导出的代码
@@ -71,3 +71,6 @@ imgcook pull 12345 --path card-list
 ```javascript
 class CardList extends Component { ... }
 ```
+
+## 如何贡献
+如果您在使用的过程中碰到问题，可以先通过 issues 看看有没有类似的 bug 或者建议。
