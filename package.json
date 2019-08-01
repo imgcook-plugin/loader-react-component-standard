@@ -1,6 +1,6 @@
 {
   "name": "@imgcook/loader-react-component-standard",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "将 imgcook React 开发规范导出的 React 组件标准化",
   "main": "index.js",
   "keywords": [
