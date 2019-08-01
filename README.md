@@ -4,6 +4,12 @@
 ## 介绍
 将 imgcook React 开发规范导出的 React 组件标准化
 
+## 安装
+<font color="#333">安装依赖 imgcook-cli</font>
+```
+imgcook install plugin --name @imgcook/loader-react-component-standard
+```
+
 ## 说明
 * 默认会导入 style.css ，建议开发者可根据需求，通过打包器进行单位转换
 * 组件名称会使用当前所在的目录名称，目录名称建议使用小写横线命名，如：card-list
@@ -49,12 +55,6 @@ class CardList extends Component {
 }
 
 export default CardList;
-```
-
-## 安装
-<font color="#333">安装依赖 imgcook-cli</font>
-```
-imgcook install plugin --name @imgcook/loader-react-component-standard
 ```
 
 ## 使用
