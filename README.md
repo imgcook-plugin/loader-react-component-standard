@@ -1,7 +1,4 @@
 # **loader-react-component-standard**
-
-
-## 介绍
 将 imgcook React 开发规范导出的 React 组件标准化
 
 ## 安装
